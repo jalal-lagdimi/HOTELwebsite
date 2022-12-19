@@ -12,7 +12,7 @@ body{
     min-height: 300px;
 }
 .carousel-item i{
-   background-color: blueviolet;
+   background-color: rgb(64, 147, 172);
    border: none;
 }
 .carousel-caption{
@@ -38,7 +38,7 @@ body{
     height: 100%;
     left: 0;
     right: 0;
-    background-color: rgb(0,0,0,0.7);
+    background-color: rgba(31, 30, 30, 0.7);
     z-index: 1;
 }
 .navbar-nav a{
@@ -46,19 +46,26 @@ body{
     text-transform: uppercase;
     font-weight: 500;
 }
-.navbar-light .navbar-brand{
-    color: black;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
+
+.navbar{
+    background-color: rgb(64, 147, 172);
+    padding: 15px;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+
 }
-.navbar-light .navbar-nav .nav-link{
-    color: rgb(0, 0, 0);
-    margin-right: 20px;
+.navbar .nav-link{
+    color: rgb(246, 240, 255);
+    margin: 8px;
 }
-.navbar-light .navbar-nav .nv{
-    color: rgb(179, 31, 224);
+.navbar .nv{
+    background-color: rgb(231, 230, 230);
+    border-radius: 5px;
+    color: rgb(64, 147, 172);
 }
 .w-100{
     height: 100vh;
@@ -68,7 +75,8 @@ body{
     box-shadow: 15px 15px 40px rgb(117, 117, 117); 
 }
 .services .card .btn{
-    background-color: azure;
+    background-color:  rgb(22, 109, 136);
+    color: rgb(0, 0, 0);
  }
  .services .card h3{
     color: rgb(0, 0, 0);
@@ -78,7 +86,7 @@ body{
    color: aliceblue;
 }
 .rooms .card button{
-    background-color: blueviolet;
+    background-color: rgb(64, 147, 172);
  }
 
 .form-area{
@@ -88,7 +96,7 @@ body{
     box-shadow: 0 2px 20px -5px rgb(73, 71, 73);
 }
 .left{
-    background-color: blueviolet;
+    background-color: rgb(64, 147, 172);
     padding: 190px 80px;
 }
 .left h2{
@@ -112,12 +120,12 @@ body{
     color: aliceblue;
 }
 .form-control{
-    border: 2px solid blueviolet;
-}
+    border: 2px solid rgb(64, 147, 172);
+ }
 .right button{
     border: none;
     border-radius: 4px;
-    background-color: blueviolet;
+    background-color:  rgb(64, 147, 172);
     width: 180px;
     color: aliceblue;
     padding: 15px 0;
@@ -127,7 +135,7 @@ body{
     cursor: pointer;
 }
 .right button:hover{
-    background-color: rgb(150, 78, 217);
+    background-color: rgb(6, 55, 70);
 }
 
 
