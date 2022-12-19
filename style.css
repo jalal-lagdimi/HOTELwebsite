@@ -11,8 +11,12 @@ body{
     height: 100vh;
     min-height: 300px;
 }
+.carousel-item i{
+   background-color: blueviolet;
+   border: none;
+}
 .carousel-caption{
-    bottom: 220px;
+    bottom: 150px;
     z-index: 2;
 }
 .carousel-caption h5{
@@ -59,6 +63,75 @@ body{
 .w-100{
     height: 100vh;
 }
+.services .card-body{
+    font-size: 50px;
+    box-shadow: 15px 15px 40px rgb(117, 117, 117); 
+}
+.services .card .btn{
+    background-color: azure;
+ }
+ .services .card h3{
+    color: rgb(0, 0, 0);
+ }
+.rooms .card{
+   box-shadow: 15px 15px 40px rgb(110, 110, 110); 
+   color: aliceblue;
+}
+.rooms .card button{
+    background-color: blueviolet;
+ }
+
+.form-area{
+    padding: 7%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgb(73, 71, 73);
+}
+.left{
+    background-color: blueviolet;
+    padding: 190px 80px;
+}
+.left h2{
+    font-family: poppins;
+    color: azure;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: aliceblue;
+}
+.form-control{
+    border: 2px solid blueviolet;
+}
+.right button{
+    border: none;
+    border-radius: 4px;
+    background-color: blueviolet;
+    width: 180px;
+    color: aliceblue;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button:hover{
+    background-color: rgb(150, 78, 217);
+}
+
+
+
 
 /* ::::::::: respo ::::::: */
 @media screen and (min-width: 768px) and (max-width: 990px){
@@ -68,13 +141,24 @@ body{
     .carousel-caption p{
         width: 100%;
     }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
 }
 @media screen and (max-width: 767px){
     .navbar-nav{
         text-align: center;
     }
     .carousel-caption{
-        bottom: 125px;
+        bottom: 200px;
     }
     .carousel-caption h5{
         font-size: 17px;
@@ -86,5 +170,22 @@ body{
         width: 100%;
         line-height: 1.6;
         font-size: 12px;
+    }
+     .card{
+        margin-bottom: 30px;
+    }
+    .left{
+        padding: 90px 15px;
+        text-align: center;
+    }
+    .right{
+        padding: 25px;
+    }
+    .left h2{
+        font-size: 25px;
+    }
+    .right button{
+        width: 250px;
+        padding: 12px 0;
     }
 }
